@@ -18,6 +18,9 @@ class RegistrationPage:
 
     def open(self):
         browser.open('/automation-practice-form')
+        browser.element(".practice-form-wrapper").should(have.text("Student Registration Form"))
+        browser.driver.execute_script("$('footer').remove()")
+        browser.driver.execute_script("$('#fixedban').remove()")
 
     def fill_registration(self, user: User):
         self.fist_name.type(user.first_name)
