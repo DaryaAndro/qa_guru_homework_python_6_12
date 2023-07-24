@@ -7,3 +7,5 @@
 3. Cделать сборку в Jenkins
 
 В качестве ответа на нужно приложить ссылку на Allure-отчет в Jenkins (с видео)
+
+**Ссылка на Jenkins: https://jenkins.autotests.cloud/job/qa_guru_homework_6_12_jenkins/4/allure/#**
